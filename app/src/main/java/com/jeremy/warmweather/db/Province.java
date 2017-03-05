@@ -1,13 +1,15 @@
 package com.jeremy.warmweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by asusl on 2017/3/4.
  */
 
 public class Province extends DataSupport {
     private int id;
-    private String provindeName;
-    private int provindeCode;
+    private String provinceName;
+    private int provinceCode;
 
     public int getId() {
         return id;
@@ -17,19 +19,19 @@ public class Province extends DataSupport {
         this.id = id;
     }
 
-    public String getProvindeName() {
-        return provindeName;
+    public String getProvinceName() {
+        return provinceName;
     }
 
-    public void setProvindeName(String provindeName) {
-        this.provindeName = provindeName;
+    public void setProvinceName(String provinceName) {
+        this.provinceName = provinceName;
     }
 
-    public int getProvindeCode() {
-        return provindeCode;
+    public int getProvinceCode() {
+        return provinceCode;
     }
 
-    public void setProvindeCode(int provindeCode) {
-        this.provindeCode = provindeCode;
+    public void setProvinceCode(int provinceCode) {
+        this.provinceCode = provinceCode;
     }
 }

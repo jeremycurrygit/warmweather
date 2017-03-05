@@ -1,5 +1,7 @@
 package com.jeremy.warmweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by asusl on 2017/3/4.
  */
